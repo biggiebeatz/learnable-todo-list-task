@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="container">
+
+  <header><h1>My Todo List</h1></header>
+ 
+  <div id="add-task-form" class="input-div">
+    <input type="text" id="new-task" name="new-task" placeholder="Add to do">
+    <button id="add-btn" class="add-btn">Add Task</button>
+  </div>
+
+ <div class="task-remaining">
+  <p>You Have <span class="count-value">0</span> task(s) remaining</p>
+ </div>
+
+ </div>
+ <div class="error-div">
+  <p class="error">Input cannot be empty</p>
+ </div>
+  <script src="index.js"></script>
+</body>
+</html>
